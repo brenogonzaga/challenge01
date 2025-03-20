@@ -1,0 +1,45 @@
+{
+    "stopwords": [
+        "tipo",
+        "de",
+        "do",
+        "da",
+        "dos",
+        "das",
+        "e",
+        "com"
+    ],
+    "unitMappings": {
+        "l": [
+            "l",
+            "litro",
+            "litros",
+            "litro(s)"
+        ],
+        "kg": [
+            "kg",
+            "quilo",
+            "quilos"
+        ],
+        "g": [
+            "g",
+            "grama",
+            "gramas"
+        ],
+        "ml": [
+            "ml",
+            "mililitro",
+            "mililitros"
+        ]
+    },
+    "unitConversions": {
+        "g": {
+            "kg": 1000
+        }
+    },
+    "sortTokens": true,
+    "synonymMapping": {
+        "joao": "tio joao",
+        "piracanjuba": "piracanjuba"
+    }
+}
